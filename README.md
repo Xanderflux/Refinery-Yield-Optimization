@@ -69,6 +69,24 @@ The analysis confirmed that **Flow to Next Process** and **Reflux Flow** are the
 * **Plotly & Matplotlib** - Engineering Visualization
 * **Seaborn** - Statistical Graphics
 * **Jupyter Notebook** - Interactive Development
+* **Streamlit** - Interactive Web Dashboard
+
+---
+
+## 🚀 Interactive Dashboard
+
+Experience the model in action with our live Streamlit dashboard:
+
+```bash
+streamlit run app.py
+```
+
+**Features:**
+- 🎛️ Interactive sliders for all process variables
+- 📊 Real-time yield predictions with quality indicators
+- 📈 Feature importance visualization
+- 🗺️ Interactive 3D optimization surface
+- ✅ Model performance metrics
 
 ---
 
