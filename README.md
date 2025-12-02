@@ -1,5 +1,6 @@
 # Refinery Yield Optimization using Machine Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Xanderflux/Refinery-Yield-Optimization/blob/main/refinery_optimization.ipynb)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-completed-success.svg)
@@ -73,9 +74,16 @@ The analysis confirmed that **Flow to Next Process** and **Reflux Flow** are the
 
 ## 🚀 How to Run
 
+### Option 1: Run in Google Colab (Recommended)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Xanderflux/Refinery-Yield-Optimization/blob/main/refinery_optimization.ipynb)
+
+Click the badge above to run the notebook directly in your browser - no installation required!
+
+### Option 2: Run Locally
+
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Xanderflux/Refinery-Yield-Optimization.git
    cd Refinery-Yield-Optimization
    ```
 
@@ -108,14 +116,16 @@ Refinery-Yield-Optimization/
 │   ├── correlation_heatmap.png
 │   ├── feature_importance.png
 │   ├── actual_vs_predicted.png
-│   └── optimization_surface_3d.png
+│   ├── optimization_surface_3d.png
+│   └── optimization_surface_3d.html  # Interactive 3D plot
 │
 ├── refinery_optimization.ipynb     # Main analysis notebook
+├── TECHNICAL_REPORT.md            # Detailed engineering analysis
 ├── data.py                         # Data preprocessing script
 ├── index.py                        # Original analysis script
 ├── README.md                       # This file
-├── DEFENSE_GUIDE.md               # Project defense preparation
 ├── requirements.txt               # Python dependencies
+├── .gitignore                     # Git ignore rules
 └── LICENSE                        # MIT License
 ```
 
@@ -149,11 +159,9 @@ Refinery-Yield-Optimization/
 
 ## 👤 Author
 
-**[Your Name]**
-* University: [Your University]
-* Program: Chemical Engineering
-* LinkedIn: [Your LinkedIn Profile]
-* GitHub: [Your GitHub Profile]
+**Xanderflux**
+* GitHub: [@Xanderflux](https://github.com/Xanderflux)
+* Focus: Chemical Engineering + Machine Learning
 
 ---
 
@@ -171,6 +179,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📚 References
+## 📚 Technical Documentation
 
-For project defense preparation and detailed Q&A, see [DEFENSE_GUIDE.md](DEFENSE_GUIDE.md).
+For detailed engineering analysis, model interpretation, and technical FAQ, see [TECHNICAL_REPORT.md](TECHNICAL_REPORT.md).
