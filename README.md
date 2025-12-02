@@ -5,6 +5,14 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-completed-success.svg)
 
+## 🌐 Try It Live
+
+**Try the interactive dashboard now:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-refinery-dashboard.streamlit.app)
+
+🔗 **[https://smart-refinery-dashboard.streamlit.app](https://smart-refinery-dashboard.streamlit.app)**
+
+---
+
 ## 📌 Project Overview
 
 This project applies **Machine Learning (Random Forest Regression)** to optimize the product yield of a **Debutanizer Column** in a refinery setting. By analyzing industrial process data, the model predicts butane content (impurity) based on operating parameters like temperature, pressure, and flow rates.
@@ -75,18 +83,27 @@ The analysis confirmed that **Flow to Next Process** and **Reflux Flow** are the
 
 ## 🚀 Interactive Dashboard
 
-Experience the model in action with our live Streamlit dashboard:
+### 🌐 Online Version
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-refinery-dashboard.streamlit.app)
+
+**Try it now:** [https://smart-refinery-dashboard.streamlit.app](https://smart-refinery-dashboard.streamlit.app)
+
+### 💻 Run Locally
+
+Experience the model in action by running the dashboard locally:
 
 ```bash
 streamlit run app.py
 ```
 
 **Features:**
-- 🎛️ Interactive sliders for all process variables
-- 📊 Real-time yield predictions with quality indicators
-- 📈 Feature importance visualization
-- 🗺️ Interactive 3D optimization surface
-- ✅ Model performance metrics
+
+* 🎛️ Interactive sliders for all process variables
+* 📊 Real-time yield predictions with quality indicators
+* 📈 Feature importance visualization
+* 🗺️ Interactive 3D optimization surface
+* ✅ Model performance metrics
 
 ---
 
