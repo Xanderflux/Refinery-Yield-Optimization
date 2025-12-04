@@ -208,9 +208,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-* Dataset: Debutanizer Column industrial process data
-* Inspiration: Application of machine learning to chemical process optimization
-* Tools: Python scientific computing ecosystem
+* **Dataset Source:** [Debutanizer Column Dataset (OpenML)](https://www.openml.org/d/23516)
+  - Origin: Real industrial data from a desulfuring and naphtha splitter plant
+  - Reference: Fortuna et al., "Soft sensors for monitoring and control of industrial processes" (Springer, 2007)
+* **Inspiration:** Application of machine learning to chemical process optimization
+* **Tools:** Python scientific computing ecosystem
 
 ---
 

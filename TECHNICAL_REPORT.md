@@ -6,6 +6,22 @@ This report presents a comprehensive machine learning approach to optimize a ref
 
 ---
 
+## Data Source
+
+**Dataset:** [Debutanizer Column Dataset (OpenML #23516)](https://www.openml.org/d/23516)
+
+**Origin:** Real industrial data from a desulfuring and naphtha splitter plant
+
+**Reference:** Fortuna, L., Graziani, S., Rizzo, A., & Xibilia, M. G. (2007). *Soft sensors for monitoring and control of industrial processes*. Springer.
+
+**Dataset Characteristics:**
+- **Samples:** ~2,400 process states
+- **Features:** 6 process variables (normalized to 0-1 scale)
+- **Target:** Butane content (impurity) in bottom product
+- **Application:** Soft sensor development for real-time quality prediction
+
+---
+
 ## 1. Process Context & Objectives
 
 ### The Debutanizer Column
